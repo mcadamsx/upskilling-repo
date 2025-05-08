@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+body{
+    background-color: #18181C;
+    
+}
+
+.nav-item img{
+    width: 20px;
+    filter: invert(100%);
+    
+}
+ .navbar{
+    background-color: #21222D;
+    height: 10vh;    
+}
+.login-nav{
+    background-color: transparent;
+    border-bottom: 3px solid #21222D;
+    height: 10vh; 
+}
+.welcome-nav{
+    background-color: transparent;
+}
+.welcome-text{
+    width: 60%;
+    text-align: center;
+    color: #c5c2c2;
+    margin: 15% auto;
+}
+.welcome-text h5{
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+.welcome-text a button{
+    background-color: green;
+    color: #ffff;
+    margin: 3%;
+    width: 15%;
+    border: none;
+    padding: 0.8%;
+    border-radius: 20px;
+}
+
+.welcome-text a button:hover{
+    background-color: #008000;
+}
+.navbar h2{
+    color: white;
+}
+.navbar h2 span{
+    color: green;
+}
+.navbar .navigation a{
+    color: white;
+    justify-content: space-between;
+    margin: 20px;
+    transition: s ease;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar .navigation a:hover{
+    color: #008000;
+    border-bottom: 5px solid #586bbe;
+    font-weight: bold;
+}
+.firstCard{
+    width: 80%;
+    display: flex;
+    margin: 5% auto;
+    justify-content: space-between;
+}
+.userTimer{
+    background-color: #21222D;
+    width: 45%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+.userTimer .icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10%;
+    text-align: center;
+    
+}
+.userTimer .icons img{
+    width: 40px;
+    text-align: center;
+}
+.userTimer .icons .interest-rate h5{
+    font-size: 1rem;
+    color: rgb(156, 153, 153);
+    margin-top: 20%;
+}
+.userTimer .icons .btc-rate h5{
+    font-size: 1rem;
+    color: rgb(156, 153, 153);
+    margin-top: 20%;
+}
+.userTimer .icons .usdt-rate h5{
+    font-size:1rem;
+    color: rgb(156, 153, 153);
+    margin-top: 20%;
+    text-align: center;
+}
+.devhead{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.devhead img{
+    width: 70px;
+    opacity: 70%;
+    border-radius: 50%;
+}
+.devhead h2{
+    color: white;
+    font-size: 15px;
+    margin-left: 70%;
+}
+.userAmt h1{
+    color: white;
+    margin-left: 100px;
+    font-size: 60px;
+}
+.main-page{
+    background-image: url(../img/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+/* LogIn Page */
+.login-title{
+    color: #ffff;
+    text-align: center;
+    margin: 5% auto;
+}
+.login-title h3{
+    font-size: 2.4rem;
+}
+.login-title p{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    opacity: 70%;
+    
+}
+.form{
+    margin: 0 auto;
+    text-align: center;
+}
+.username , .password-input{
+    margin: 1.5%;
+    width: 25%;
+    height: 6vh;
+    background-color: #21222D;
+    border: none;
+    color: #ffff;
+    padding-left: 2%;
+}
+.form button{
+    background-color: #586bbe;
+    color: #ffff;
+    margin: 7%;
+    width: 20%;
+    border: none;
+    padding: 0.5%;
+    border-radius: 10px;
+}
+.form button:hover{
+    background-color: #3c4987;
+}
+.form a{
+    font-size: 0.3rem;
+    text-decoration: none;
+}
+
+.icons{
+    text-align: center;
+}
+.icons img{
+    width: 1.8%;
+    margin: 0.7%;
+}
+
+/* Sign Up styles */
+
+.signup-form{
+    margin: 0 auto;
+    text-align: center;
+}
+.signup-form input{
+    margin: 1.5%;
+    width: 20%;
+    height: 6vh;
+    background-color: #21222D;
+    border: none;
+    color: #ffff;
+    padding-left: 2%;
+}
+.signup-form input:active{
+    border: 1px solid #586bbe;
+    border: none;
+}
+.signup-form input::after{
+    border: none;
+}
+.signup-form button{
+    background-color: #586bbe;
+    color: #ffff;
+    margin: 3%;
+    width: 20%;
+    border: none;
+    padding: 0.5%;
+    border-radius: 10px;
+}
+.signup-form button:hover{
+    background-color: #3c4987;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    width: 90%;
+    margin: 0 auto;
+    border-top: 2px solid #21222D;
+    padding-top: 1%;
+
+}
+footer a{
+    text-decoration: none;
+}
+footer h1{
+    color: #535353;
+    font-size: 0.8rem;
+    text-decoration: none;
+}

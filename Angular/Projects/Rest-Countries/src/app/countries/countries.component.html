@@ -1,0 +1,26 @@
+
+<script src="countries.component.ts"></script>
+<div class="search-container">
+    <form >
+
+         <input type="text" placeholder="Search for a country" #filter>
+
+    </form>
+     <select name="" id="" >
+         <option value="1">Filter by Region</option>
+         <option value="1">America</option>
+         <option value="1">Asia</option>
+         <option value="1">Europe</option>
+         <option value="1">Oceania</option>
+     </select>
+ </div>
+
+
+<div class="countries">
+    <app-country
+*ngFor="let country of countryList"
+[countryList]="country"
+>
+
+</app-country>
+</div>

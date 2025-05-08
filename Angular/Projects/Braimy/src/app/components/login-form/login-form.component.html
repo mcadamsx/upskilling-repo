@@ -1,0 +1,72 @@
+<div class="my-32 w-11/12 h-4/6 ">
+  <div>
+    <form class="  " (submit)="submitForm()">
+      <h1 class="text-3xl font-semibold mb-16">Log In</h1>
+      <div class="relative mb-5">
+        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+          <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M21.5001 3.04997C21.5001 1.86747 20.5326 0.899963 19.3501 0.899963H2.15001C0.967503 0.899963 0 1.86747 0 3.04997V15.95C0 17.1325 0.967503 18.1 2.15001 18.1H19.3501C20.5326 18.1 21.5001 17.1325 21.5001 15.95V3.04997ZM19.3501 3.04997L10.75 8.42499L2.15001 3.04997H19.3501ZM19.3501 15.95H2.15001V5.19998L10.75 10.575L19.3501 5.19998V15.95Z"
+              fill="#ADB0CD"/>
+          </svg>
+
+        </div>
+        <input type="email" id="default-search"
+               class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+               placeholder="Your email" required/>
+      </div>
+      <div class="relative mb-5">
+        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+          <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.8178 12.3637L17.5451 14.0909L20.9996 10.6364L19.2724 8.90912" stroke="#ADB0CD"
+                  stroke-width="2.30303" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M10.8452 12.1546L20.9998 2" stroke="#ADB0CD" stroke-width="2.30303" stroke-linecap="round"
+                  stroke-linejoin="round"/>
+            <path
+              d="M7.18182 21C10.0437 21 12.3636 18.68 12.3636 15.8182C12.3636 12.9563 10.0437 10.6364 7.18182 10.6364C4.31998 10.6364 2 12.9563 2 15.8182C2 18.68 4.31998 21 7.18182 21Z"
+              stroke="#ADB0CD" stroke-width="2.30303" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <input type="password"
+               class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+               placeholder="password" required/>
+      </div>
+      <button class="w-full bg-blue-600 p-3 rounded-lg text-gray-50">Log In</button>
+      <h6 class="  font-semibold text-blue-600 mt-4">Forgot password?</h6>
+
+
+    </form>
+    <div class="flex mx-auto items-center justify-between my-10">
+      <hr class="border opacity-40 border-gray-500 w-full">
+      <h3 class="px-4">OR</h3>
+      <hr class="border opacity-40 border-gray-500 w-full">
+    </div>
+    <div class="flex  gap-8 mx-auto items-center justify-between my-10">
+      <button class=" text-center mx-auto flex justify-between border border-gray-300 w-8/12 p-2 px-14 rounded">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M27.25 14.0814C27.25 12.9488 27.1581 12.1223 26.9592 11.2652H14.0257V16.3773H21.6174C21.4644 17.6477 20.6378 19.561 18.8011 20.8466L18.7754 21.0177L22.8647 24.1857L23.148 24.214C25.75 21.8109 27.25 18.2752 27.25 14.0814Z" fill="#4285F4"/>
+          <path d="M14.0256 27.5506C17.7449 27.5506 20.8673 26.3261 23.1479 24.214L18.801 20.8466C17.6378 21.6578 16.0766 22.2241 14.0256 22.2241C10.3829 22.2241 7.29109 19.8212 6.18896 16.4998L6.02742 16.5135L1.77527 19.8043L1.71967 19.9589C3.98491 24.4588 8.63792 27.5506 14.0256 27.5506Z" fill="#34A853"/>
+          <path d="M6.18863 16.4998C5.89782 15.6426 5.72952 14.7242 5.72952 13.7753C5.72952 12.8263 5.89782 11.908 6.17333 11.0508L6.16563 10.8683L1.8602 7.52466L1.71933 7.59166C0.785712 9.459 0.25 11.556 0.25 13.7753C0.25 15.9947 0.785712 18.0915 1.71933 19.9588L6.18863 16.4998Z" fill="#FBBC05"/>
+          <path d="M14.0256 5.32642C16.6123 5.32642 18.3571 6.44374 19.3521 7.37746L23.2397 3.58158C20.8521 1.36223 17.7449 0 14.0256 0C8.63792 0 3.98491 3.09177 1.71967 7.59167L6.17366 11.0508C7.29109 7.72947 10.3829 5.32642 14.0256 5.32642Z" fill="#EB4335"/>
+        </svg>
+
+      <h6 class="font-semibold ml-3 text-lg">  Goggle</h6>
+      </button>
+      <h3 class="px-4 hidden">OR</h3>
+      <button class=" text-center mx-auto flex justify-between border border-gray-300 w-8/12 p-2 px-14 rounded">
+        <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M29.25 14.5C29.25 6.49123 22.7588 0 14.75 0C6.74123 0 0.25 6.49123 0.25 14.5C0.25 21.7381 5.54945 27.7367 12.4856 28.8252V18.6951H8.80699V14.5H12.4856V11.306C12.4856 7.67507 14.6467 5.66493 17.9599 5.66493C19.5489 5.66493 21.2094 5.95096 21.2094 5.95096V9.51836H19.3821C17.5785 9.51836 17.0223 10.6386 17.0223 11.7827V14.5H21.0426L20.399 18.6951H17.0223V28.8252C23.9505 27.7367 29.25 21.7381 29.25 14.5Z" fill="#1877F2"/>
+        </svg>
+
+        <h6 class="font-semibold ml-3 text-lg">  Facebook</h6>
+      </button>
+    </div>
+    <h6 class=" text-gray-400 mt-4">Don't have an account? <span class=" ml-2 font-semibold text-blue-600">Sign up</span> </h6>
+
+  </div>
+
+</div>
+
+
+
+

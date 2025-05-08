@@ -1,0 +1,13 @@
+<div class="countries">
+    <div class="countries-container">
+        <img [src]="countryList.flag" alt="">
+      <a [routerLink]= "['/details',countryList.id]">
+        <div class="country-details">
+          <h4>{{countryList.name}}</h4>
+          <p>Population: <span> {{countryList.population}}</span> </p>
+          <p>Region: <span> {{countryList.region}}</span> </p>
+          <p>Capital: <span>{{countryList.capital}} </span></p>
+        </div>
+      </a>
+    </div>
+</div>

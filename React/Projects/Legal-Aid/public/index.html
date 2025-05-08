@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/klogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="author" content="Rebecca Waweru"/>
+    <meta
+      name="description"
+      content="Scottish Legal Aid Board is a progressive reputable medium sized firm dedicated to providing exceptional legal services to individuals, businesses, and organizations"
+    />
+    <meta name="google-site-verification" content="949Xt5r_PnVBtqNl8xW5o4laC5Vbz6YVPntFcY_nf24" />
+    <meta name="robots" content="index,follow" />
+    <meta name="copyright" content="Copyright 2023">
+    <meta name="HandheldFriendly" content="true"/>
+    <meta property="og:title" content="Scottish Legal Aid Board" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://Scottish Legal Aid Board.com" />
+    <meta property="og:image" content="https://res.cloudinary.com/marite/image/upload/v1698404004/klogo_pq62w2.png" />
+    <meta property="og:description" content="Your Legal Compass in a Complex World" />
+    <meta property="og:site_name" content="Scottish Legal Aid Board"/>
+    <meta property="og:locale" content="en_US" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/klogo.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Scottish Legal Aid Board</title>
+    <style>
+    .wrapper{
+      /* background-color: black; */
+      background-color: black;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+       position: fixed;
+       inset: 0;
+    }
+  .custom-loader {
+  width:50px;
+  height:50px;
+  border:2px solid rgb(202 138 4);
+  display: grid;
+  animation: h1 4s infinite linear;
+  position: absolute;
+  top: 50%; /* Vertically center the loader */
+  left: 50%; /* Horizontally center the loader */
+  transform: translate(-50%, -50%); /* Center the loader precisely */
+}
+.custom-loader::before,
+.custom-loader::after {
+  content: "";
+  grid-area: 1/1;
+  margin:auto;
+  width:70.7%;
+  height:70.7%; 
+  border:2px solid rgb(202 138 4);
+  animation: inherit;
+}
+.custom-loader::after {
+  width:50%;
+  height:50%;
+  border:2px solid rgb(202 138 4);
+  animation-duration: 2s;
+}
+@keyframes h1{
+  100% {transform:rotate(1turn)}
+}
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="wrapper">
+        <div class="custom-loader"></div>
+   </div>
+    </div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
